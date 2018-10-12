@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Welcome -->
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="start">ENTENDI</string>
+
+    <string name="slide_1_title">Como fazer parte da mudança?</string>
+    <string name="slide_1_desc">Porque auxiliar o próximo?</string>
+
+    <string name="slide_2_title">Objetivo</string>
+    <string name="slide_2_desc">A partir dessas e outras questões, a equipe de ciêncas Stephen Hawking(Colégio Sesi - Boqueirão) se propôs a pensar em como poderia contribuir para tornar a vida do portador de deficiência um pouco mais simples e digna.</string>
+
+    <string name="slide_3_title">Como?</string>
+    <string name="slide_3_desc">Usando a tecnologia, propomos a criação de um aplicativo que ajudasse o portador de deficiência e encontrar lugares mais acessíveis e que prezem por um atendimento de qualidade, no bairro Boqueirão em Curitiba.</string>
+
+    <string name="slide_4_title">Dúvidas?</string>
+    <string name="slide_4_desc">Contato pelo email: equipeboqueirao@gmail.com</string>
+
+    <!-- Senai -->
+    <string name="nomeSenai">Senai - Boqueirão</string>
+    <string name="endSenai"><b>Endereço:</b> Rua Doutor Heleno da Silveira, 343 Boqueirão, Curitiba - PR, 81750-340</string>
+    <string name="telSenai"><b>Telefone:</b> (41) 3271-8900</string>
+    <string name="classSenai"><b>Classificação:</b></string>
+
+    <!-- Terminal -->
+    <string name="nomeTerminal">Terminal Boqueirão</string>
+    <string name="endTerminal"><b>Endereço:</b> Av. Mal. Floriano Peixoto - Boqueirão, Curitiba - PR, 81730-000</string>
+    <string name="telTerminal"><b>Telefone:</b> ---</string>
+    <string name="classTerminal"><b>Classificação:</b></string>
+
+    <!-- Sabores -->
+    <string name="nomeSabores">Restaurante - Sabores Grill</string>
+    <string name="endSabores"><b>Endereço:</b> Rua Zonardy Ribas, 700 - Boqueirão, Curitiba - PR, 81750-380</string>
+    <string name="telSabores"><b>Telefone:</b> (41) 3045-1273</string>
+    <string name="classSabores"><b>Classificação:</b></string>
+
+    <!-- Jacomar -->
+    <string name="nomeJacomar">Supermercado Jacomar - Boqueirão</string>
+    <string name="endJacomar"><b>Endereço:</b> Rua Desembargador Antonio de Paula, 2765 - Boqueirão, Curitiba - PR, 81750-450</string>
+    <string name="telJacomar"><b>Telefone:</b> (41) 3386-8200</string>
+    <string name="classJacomar"><b>Classificação:</b></string>
+
+</resources>
