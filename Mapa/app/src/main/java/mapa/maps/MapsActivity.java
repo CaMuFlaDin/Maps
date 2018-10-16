@@ -27,7 +27,11 @@ public class MapsActivity extends FragmentActivity implements
 
     private static final LatLng SABORES = new LatLng(-25.516855, -49.231667);
 
-    private Marker mSenai, mTerminal, mSabores;
+    private static final LatLng JACOMAR = new LatLng(-25.514359, -49.242665);
+
+    private static final LatLng BRASEIRO = new LatLng(-25.512413, -49.232379);
+
+    private Marker mSenai, mTerminal, mSabores, mJacomar, mBraseiro;
 
     private GoogleMap mMap;
 
@@ -70,6 +74,16 @@ public class MapsActivity extends FragmentActivity implements
                 .title("Restaurante - Sabores Grill"));
         mSabores.setTag(0);
 
+        mJacomar = mMap.addMarker(new MarkerOptions()
+                .position(JACOMAR)
+                .title("Supermercado Jacomar - Boqueirão"));
+        mJacomar.setTag(0);
+
+        mBraseiro = mMap.addMarker(new MarkerOptions()
+                .position(BRASEIRO)
+                .title("Braseiro Churrascaria"));
+        mBraseiro.setTag(0);
+
         mMap.setOnMarkerClickListener(this);
     }
 
@@ -103,6 +117,25 @@ public class MapsActivity extends FragmentActivity implements
             AlertDialog.Builder builder2 = new AlertDialog.Builder(MapsActivity.this);
             builder2.setCancelable(true);
             builder2.setTitle("Restaurante - Sabores Grill");
+            builder2.setMessage("").setView(view2);
+            builder2.create().show();
+        }
+
+        else if(marker.getTitle().equals("Supermercado Jacomar - Boqueirão")){
+            View view2 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_jacomar, null);
+
+            AlertDialog.Builder builder2 = new AlertDialog.Builder(MapsActivity.this);
+            builder2.setCancelable(true);
+            builder2.setTitle("Supermercado Jacomar - Boqueirão");
+            builder2.setMessage("").setView(view2);
+            builder2.create().show();
+        }
+        else if(marker.getTitle().equals("Braseiro Churrascaria")){
+            View view2 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_braseiro, null);
+
+            AlertDialog.Builder builder2 = new AlertDialog.Builder(MapsActivity.this);
+            builder2.setCancelable(true);
+            builder2.setTitle("Braseiro Churrascaria");
             builder2.setMessage("").setView(view2);
             builder2.create().show();
         }

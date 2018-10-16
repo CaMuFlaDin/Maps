@@ -43,4 +43,10 @@
     <string name="telJacomar"><b>Telefone:</b> (41) 3386-8200</string>
     <string name="classJacomar"><b>Classificação:</b></string>
 
+    <!-- Braseiro -->
+    <string name="nomeBraseiro">Braseiro Churrascaria</string>
+    <string name="endBraseiro"><b>Endereço:</b> Av. Mal. Floriano Peixoto, 9818 - Boqueirão, Curitiba - PR, 81730-000</string>
+    <string name="telBraseiro"><b>Telefone:</b> (41) 3286-4255</string>
+    <string name="classBraseiro"><b>Classificação:</b></string>
+
 </resources>
