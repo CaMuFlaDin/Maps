@@ -122,21 +122,21 @@ public class MapsActivity extends FragmentActivity implements
         }
 
         else if(marker.getTitle().equals("Supermercado Jacomar - Boqueirão")){
-            View view2 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_jacomar, null);
+            View view3 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_jacomar, null);
 
             AlertDialog.Builder builder2 = new AlertDialog.Builder(MapsActivity.this);
             builder2.setCancelable(true);
             builder2.setTitle("Supermercado Jacomar - Boqueirão");
-            builder2.setMessage("").setView(view2);
+            builder2.setMessage("").setView(view3);
             builder2.create().show();
         }
         else if(marker.getTitle().equals("Braseiro Churrascaria")){
-            View view2 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_braseiro, null);
+            View view4 = LayoutInflater.from(MapsActivity.this).inflate(R.layout.activity_braseiro, null);
 
             AlertDialog.Builder builder2 = new AlertDialog.Builder(MapsActivity.this);
             builder2.setCancelable(true);
             builder2.setTitle("Braseiro Churrascaria");
-            builder2.setMessage("").setView(view2);
+            builder2.setMessage("").setView(view4);
             builder2.create().show();
         }
 
